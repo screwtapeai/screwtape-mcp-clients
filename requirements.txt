@@ -1,0 +1,2 @@
+# get_free_key.py uses only the Python standard library (3.9+). Nothing to install.
+# claude_desktop_config.json pins mcp-remote@0.15.2 through npx.
