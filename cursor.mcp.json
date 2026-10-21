@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "screwtape": {
+      "url": "https://screwtape.ai/mcp",
+      "headers": { "Authorization": "Bearer ${env:SCREWTAPE_API_KEY}" }
+    }
+  }
+}
