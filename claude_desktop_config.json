@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "screwtape": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@0.15.2",
+        "https://screwtape.ai/mcp",
+        "--header",
+        "Authorization:${AUTH_HEADER}"
+      ],
+      "env": {
+        "AUTH_HEADER": "Bearer REPLACE_WITH_YOUR_SCREWTAPE_KEY"
+      }
+    }
+  }
+}
