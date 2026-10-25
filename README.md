@@ -1,5 +1,8 @@
 # Screwtape.ai for MCP clients (Claude Desktop, Claude Code, Cursor, Windsurf)
 
+[![Listed on MCP Collection](https://mcpcollection.com/badge/screwtape-ai.svg)](https://mcpcollection.com/server/screwtape-ai)
+
+
 An independent judge for your agents. Screwtape isn't tied to any agent framework or AI model provider, so its verdicts are never grading their own work. Every verdict comes with a signed receipt you can verify yourself, which gives you a record you can trust when it matters.
 
 False-consensus check and pass/fail/retry verdicts inside your MCP client. Screwtape.ai runs a remote MCP server over **Streamable HTTP** at `https://screwtape.ai/mcp` (protocol 2025-03-26 and 2025-06-18). It's listed in the official MCP Registry as `ai.screwtape/screwtape`. On 2026-10-21, `tools/list` returned four tools:
