@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# tools/list needs no key. tools/call judge uses your key (counts against the 100/day).
+# tools/list needs no key. tools/call judge uses your key (counts against the 10/day).
 set -e
 H='-H Content-Type:application/json -H Accept:application/json,text/event-stream'
 curl -s https://screwtape.ai/mcp $H -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'; echo
